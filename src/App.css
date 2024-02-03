@@ -1,0 +1,104 @@
+body{
+    background-color:#041226;
+    
+}
+
+.card {
+    width: 200px; 
+    height: 370px; 
+    overflow: hidden; 
+    margin: 15px;
+    color:white;
+}
+
+.card img{
+    border-radius: 8px;
+    height:260px;
+    width:180px;
+}
+
+.slider-container {
+    margin: 0 auto; 
+    max-width: 1200px; 
+}
+
+.sideHeading{
+    margin-left: 330px;
+    color:white;
+}
+
+.secondData{
+    margin: 80px;
+}
+.heading{
+    margin-left: 260px;
+    color:white;
+}
+.movieDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:18px;
+}
+.details{
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    background-color:#020c1b;
+    height:60px;
+    width:100%;
+    gap:800px;
+    text-decoration: none;
+}
+.secondflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    font-size: 19px;
+    color:white;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    margin-bottom: 300px;
+    margin-top:150px;
+}
+.welcome{
+    font-weight: 900;
+    font-size: 70px;
+    margin-bottom: 0;
+}
+.textpara{
+    font-size: 30px;
+}
+
+.moivieDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sreach{
+    width:880px;
+    height:50px;
+    border-radius: 50px;
+    border:none;
+}
+.sreach::placeholder {
+    color: #999; 
+    font-size: 20px; 
+    padding:8px;
+  }
+
+  .sreach {
+    position: relative;
+  }
+  
+  
